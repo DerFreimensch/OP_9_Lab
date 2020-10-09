@@ -10,7 +10,7 @@ FILE* fout1;
 char line[MAXLINE];
 char* ptr;
 char* c;
-int N = 0;
+int n = 0;
 int counter = 0;
 void edit() {
 	while (!feof(fin)) {
@@ -31,7 +31,7 @@ int main(void) {
 	if (fin == NULL || fout == NULL || fout1 == NULL)
 		return;
 	printf("%s\n", "Print N: ");
-	scanf_s("%d", &N);
+	scanf_s("%d", &n);
 	edit();
 	fseek(fout1, 0, SEEK_SET);
 	while (!feof(fout1)) {
