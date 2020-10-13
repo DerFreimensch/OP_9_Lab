@@ -8,3 +8,8 @@ The programm comprise of 2 parts (function): edit and main. The text
 turns into "one string text" in extra file in a function "edit". Function 
 "main" opens files makes edited text from extra file, writes in exit file,
 closes files and deletes extra file.
+
+
+Reports are written on russian
+
+Link for watching and commenting google docs document: https://docs.google.com/document/d/16aQnegdcfRNqOxCjFTFlVdaRti4tGC9Si9ksYzAV-A4/edit?usp=sharing
