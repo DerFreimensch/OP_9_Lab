@@ -2,7 +2,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define MAXLINE 1024
 #include <stdio.h>
-#include <string.h>
 
 
 FILE *fin;
@@ -28,7 +27,6 @@ void edit() {
 int main(void) {
 	fin = fopen("read.txt", "rt");
 	fout = fopen("write.txt", "wt");
-	//fout1 = fopen("rw.txt", "w+t");
 	if (fin == NULL || fout == NULL )
 		return;
 	printf("%s\n", "Print N: ");
